@@ -1,0 +1,91 @@
+/* universal styling */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* styling of about me section */
+#section-container-about{
+    max-width: 30%;
+    margin: 10px auto;
+    background: #F8F8F8;
+    height: 500px;
+   
+    
+}
+
+#about-image-container{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    
+
+    
+}
+
+#about-image{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 10px;
+    border-top: 5px solid #c5bfbf;
+    border-bottom: 5px solid #c5bfbf
+}
+
+
+#about-text-container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 15px 0;
+    font-size: 15px;
+    
+}
+
+h2 {
+    color: #143774;
+    text-align: center;
+    font-size: 30px;
+}
+
+#about-text-container p {
+    color: #000;
+    font-weight: 700;
+    border-bottom: 1px solid #143774;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+/* media query */
+
+@media(min-width:250px) and  (max-width:620px), (max-width:1500px){
+
+    #section-container-about{
+        max-width: 80%;
+        padding: 0;
+        margin: 15px auto;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+  
+
+    @media (min-width: 621px) and (max-width: 1500px){
+        #section-container-about{
+            max-width: 50%;
+        }
+    }
+
+}
+    
+        
+
